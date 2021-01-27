@@ -16,9 +16,9 @@ Hit F12, use the element selector tool to find the table element. Right click an
 
 In the HTML there is a string that we can use to identify all song titles and bands, "aria-label="Play ". Do a crtl + F and click find all. Hold shift and press home then ctrl + c to copy. Paste this into a new text editor window. Use crtl + F to clean up the excess code. Also take this time to remove any special characters. After this you can take this into Excel and remove the duplicates if there are any.
 
-https://i.imgur.com/tnCrdxO.png
+![spotify](https://i.imgur.com/tnCrdxO.png)
 
-https://i.imgur.com/SEkRmXj.png
+![sublime](https://i.imgur.com/SEkRmXj.png)
 
 
 ### Now that you have the playlists in the right format. Let's get Python ready to rock.
@@ -28,9 +28,13 @@ https://i.imgur.com/SEkRmXj.png
 2. Add the environment variables for Python. Hit Windows + E > right click "This PC" > click "Advanced system settings" > "Advanced" > "Environment Variables" > Under "System variables" select "Path" > click "Edit > Add the following
 
 C:\Python27\
+
 C:\Python27\Scripts
+
 C:\Python27\libs
+
 C:\Python27\Lib
+
 C:\Python27\DLLs
 
 Back to the setup folder, run the Python Webscraping Libraries.bat to get the Python libs and Run the Twisted.msi (might not be need it but Scrapy used to be picky)
