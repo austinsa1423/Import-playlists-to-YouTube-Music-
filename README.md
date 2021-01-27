@@ -14,6 +14,7 @@ Quick and Dirty way to do it is to copy the HTML table element from the playlist
 In the HTML there is a string that we can use to identify all songs title and bands "aria-label="Play ". Do a crtl + F and click find all. Hold shift and press home then ctrl + c to copy. Paste this into a new text editor window. Use crtl + F to clean up the excess code. Also take this time to remove any special characters. After this you can take this into Excel and remove the duplicates if there are any.
 
 ![spotify HTML] (https://i.imgur.com/tnCrdxO.png)
+
 ![sublime] (https://i.imgur.com/SEkRmXj.png)
 
 Now that you have the playlists in the right format. Let's get Python ready to rock.
