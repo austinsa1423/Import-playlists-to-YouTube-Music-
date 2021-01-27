@@ -8,6 +8,7 @@ I created this for my move from Spotify to Youtube Music. Now Spotify is great c
 For each playlist you will have to save them in this format to playlists.json. So each line is its on json object with playlist being a string value with the playlist name and songs which is an array of song names and band names (use both for best search results). Notice in these examples, there are no special characters. Anything that is not alphanumeric will cause the song to fail in the search. So remove any special characters before running. If it make sense replace the character with another do that. Ex. change BØRNS to BORNS 
 
 {"playlist": "hecking sick tracks", "songs": ["You are my sunshine Johnny Cache", "Crazy Frog Axel F"]} 
+
 {"playlist": "tracks that hecking sick", "songs": ["Wonderwall Oasis", "Skyrim Theme Song Wernetina1"]}
 
 ### The quick and dirty way to do it is to copy the HTML table element from the playlist page. 
