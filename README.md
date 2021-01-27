@@ -9,7 +9,14 @@ Once you have the songs for each playlist you will have to save them in this for
 {"playlist": "hecking sick tracks", "songs": ["You are my sunshine Johnny Cache", "Crazy Frog Axel F"]} 
 {"playlist": "tracks that hecking sick", "songs": ["Wonderwall Oasis", "Skyrim Theme Song Wernetina1"]}
 
-Now that you have the playlist in the right format. Let's get Python ready to rock.
+Quick and Dirty way to do it is to copy the HTML table element from the playlist page. Hit F12, use the element selector tool to find the table element. Right click and copy the "inner html". Paste this into a text editor like Sublime and format it. If you have a long playlist, you will have to do this multiple times. Spotify will only show 100 songs at a time. Zoom all the way out in the window to display all 100. Copy the HTML and scroll down and copy the next set till you got them all. 
+
+In the HTML there is a string that we can use to identify all songs title and bands "aria-label="Play ". Do a crtl + F and click find all. Hold shift and press home then ctrl + c to copy. Paste this into a new text editor window. Use crtl + F to clean up the excess code. Also take this time to remove any special characters. After this you can take this into Excel and remove the duplicates if there are any.
+
+!(spotify HTML) (https://i.imgur.com/tnCrdxO.png)
+!(sublime) (https://i.imgur.com/SEkRmXj.png)
+
+Now that you have the playlists in the right format. Let's get Python ready to rock.
 
 1. Install Python 2.7.13 that is located in the Setup folder
 
