@@ -1,4 +1,4 @@
-### Moved over to Youtube Music but you don’t want to manually add all your songs? Hope this help
+### Moved over to Youtube Music but you don’t want to manually add all your songs? Hope this helps.
 
 You are likely here becuase you moved over to Youtube Music and realized that moving music streaming platforms is annoying because you have to move all your playlists over and that can be a ton of manual work. Trust me I can relate; this is my second time changing. (Google Play > Spotify > Youtube Music)
 
